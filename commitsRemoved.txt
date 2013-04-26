@@ -1,0 +1,14 @@
+Open Git Shell... Then do the following to remove all commits:
+
+If you are sure to remove all commit history, simply just remove the .git folder in your project root (note that its hidden). Then initialize a new repository in the same folder and link it to github:
+git init
+git remote add origin git@github.com:user/repo
+
+now commit your current version of code
+git add *
+git commit -am 'message'
+
+and finally force update on github:
+git push -f origin master
+
+However, I suggest backuping your repository (.git folder) before doing these steps!
