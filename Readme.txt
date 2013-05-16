@@ -3,4 +3,4 @@
 3.Enjoy :)
 
 W A S D = Movement Keys
-HOLD left click to fire (Holding left click will ensure maximun fire rate)
+Fire rate is automatic - Dictated by the music's current intensity.
